@@ -1,0 +1,23 @@
+body{
+	background: linear-gradient(to right, #033067, #F6AF56);
+}
+
+.colorpickers {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.div1 { 
+	font-size: 50px;
+	text-align: center;
+	grid-area: 1 / 3 / 2 / 5;
+	 }
+
+.div2 {
+	grid-area: 2 / 3 / 3 / 5; 
+	justify-self: center;
+	padding-top: 20px;
+	}
